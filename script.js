@@ -12,7 +12,7 @@ async function getCharacters() {
   let characters = ''
   data.results.forEach(element => {
     characters += `<li>
-      ${element.name}
+      <a href="detail.html#${element.id}"> ${element.name} </a>
       <img src="${element.image}" alt="${element.name}"/>
     </li>`
   });

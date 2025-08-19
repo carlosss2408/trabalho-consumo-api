@@ -21,3 +21,16 @@ button {
   color: white;
   font-weight: 600;
 }
+
+div a {
+
+  color: black;
+}
+
+div li {
+  flex-direction: column;
+  display:flex;
+  align-items: center;
+  gap: 20px;
+
+}
